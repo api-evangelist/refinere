@@ -1,7 +1,26 @@
 aid: refinere
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/refinere.png
 name: RefineRE
-description: RefineRE is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  RefineRE is a commercial real estate (CRE) SaaS platform that unifies
+  benchmarking, data analysis, and portfolio usage tools into a single product
+  suite for corporate real estate teams. Its eight modules span data foundations,
+  portfolio management, market analysis, ESG tracking, and workplace analytics,
+  helping occupiers and CRE managers optimize their real estate portfolios. A
+  Techstars-backed company, RefineRE is added to the API Evangelist network as a
+  provider profile; as of this enrichment pass the company publishes no public
+  API, developer portal, SDKs, or machine-readable API surface.
 url: https://raw.githubusercontent.com/api-evangelist/refinere/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Commercial Real Estate
+- Real Estate Technology
+- Data Analytics
+- Benchmarking
+- ESG
+- Portfolio Management
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://refinere.com/
+  url: https://www.refinere.com/
+- type: Blog
+  url: https://www.refinere.com/learn/
+- type: PrivacyPolicy
+  url: https://www.refinere.com/privacy-policy
+- type: DomainSecurity
+  url: security/refinere-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

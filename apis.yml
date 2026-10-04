@@ -49,7 +49,7 @@ tags:
 - Data Analytics
 - Benchmarking
 - ESG
-- Portfolio-Management
+- Portfolio Management
 - Software-as-a-Service
 tags_raw:
 - Company
@@ -60,6 +60,7 @@ tags_raw:
 - ESG
 - Portfolio Management
 - SaaS
+- Portfolio-Management
 apis: []
 maintainers:
 - FN: Kin Lane
